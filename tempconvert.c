@@ -7,8 +7,9 @@ date: november 2024
 #include <math.h>
 int main(){
   float celcius, fahrenheit;
-  scanf("%f", celcius);
+  printf("Enter the temperature in celcius: ");
+  scanf("%f", &celcius);
   fahrenheit = (celcius * 9/5) + 32;
-  printf("%.2f", fahrenheit);
+  printf("The temperature in fahrenheit is: %.2f", fahrenheit);
   return 0;
 }
